@@ -1,0 +1,11 @@
+<button class="thought-button">New Thought</button>
+
+<div>
+<form #postForm ="ngForm" (ngSubmit)="emitSubmitEvent(postForm)">
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" ngModel>
+    <label for="thought">Thoughts</label>
+    <input type="text" name="thought" id="thought" ngModel>
+    <button>Add Post</button>
+</form>
+</div>

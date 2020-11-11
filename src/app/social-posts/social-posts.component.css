@@ -1,0 +1,9 @@
+.heading {
+  font-family: "Homemade Apple", cursive;
+}
+.post-container {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  border: solid 2px black;
+}

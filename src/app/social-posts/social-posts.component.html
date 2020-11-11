@@ -1,0 +1,8 @@
+<h1 class="heading">My Thoughts</h1>
+<app-post-form (submitEvent)="addPost($event)"></app-post-form>
+<div class="post-card-container">
+<ul class="post-container">
+<app-post [postRef]="post" *ngFor="let post of posts, index as i"
+(deleteEvent)="deletePost(i)"></app-post>
+</ul>
+</div>
